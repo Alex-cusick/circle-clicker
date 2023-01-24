@@ -41,7 +41,7 @@ function App() {
           style={{
             left:`${coords[0] - 12}px`, 
             top:`${coords[1] - 12}px`, 
-            //transformOrigin:`${-(coords[0] - (screen.availWidth / 2))}px ${-(coords[1] - (screen.availHeight / 2))}px`
+            transformOrigin:`${-(coords[0] - (screen.availWidth / 2))}px ${-(coords[1] - (screen.availHeight / 2))}px`
           }}
         ></div>
       )
